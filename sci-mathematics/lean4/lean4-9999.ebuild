@@ -12,10 +12,9 @@ DESCRIPTION="Lean 4 programming language and theorem prover"
 HOMEPAGE="https://leanprover.github.io/"
 
 inherit git-r3
-EGIT_REPO_URI="https://github.com/asdasd1dsadsa/lean4.git"
+EGIT_REPO_URI="https://github.com/leanprover/lean4.git"
 EGIT_CLONE_TYPE=shallow
-EGIT_BRANCH="patch-1"
-#EGIT_BRANCH="license-install-option"
+#EGIT_BRANCH="master"
 #S="${WORKDIR}/lean4-${PV}/src"
 
 LICENSE="Apache-2.0"
